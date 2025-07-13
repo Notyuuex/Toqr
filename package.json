@@ -1,0 +1,21 @@
+{
+  "name": "qr-code-telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot to generate QR codes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "qr",
+    "qrcode"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "qrcode": "^1.5.0"
+  }
+}
